@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Painel de Controle - Merc Senha</title>
+</head>
+<body>
+    <section class="painelBx">
+        <p class="tituloPainel">PAINEL DE CONTROLE</p>
+        <div class="controle">
+            <button id="start">Start</button>
+            <audio id="somStart" src="./midias/start.wav" hidden></audio>
+            <audio id="somTempo" src="./midias/musicaPrograma.mp3" hidden></audio>
+            <button id="acertou">Acertou</button>
+            <audio id="somAcertou" src="./midias/ACERTOU.wav" hidden></audio>
+            <audio id="somAplausos" src="./midias/aplausosPlateia.wav" hidden></audio>
+            <button id="errou">Errou</button>
+            <audio id="somPerdeu" src="./midias/perdeu.wav" hidden></audio>
+            <audio id="somErrou" src="./midias/ERROU.wav" hidden></audio>
+            <button id="proximo">Proximo</button>
+            <button id="mudar">Mudar</button>
+        </div>
+    </section>
+
+    <section class="senhaBx">
+        <div class="senha">
+            <p>Senha:</p>
+            <p class="palavra">#######</p>
+        </div>
+    </section>
+
+    <section class="infoRodadaBx">
+        <div class="pontosBx">
+            <p class="infoTitulo">Pontos</p>
+            <p class="pontos">0</p>
+        </div>
+
+        <div class="rodadaBx">
+            <p class="infoTitulo">Rodada</p>
+            <p class="rodada">1</p>
+        </div>
+
+        <div class="premioBx">
+            <p class="infoTitulo">Prêmio</p>
+            <p class="premio">100</p>
+        </div>
+    </section>
+
+    <section class="timerBx">
+        <p class="timer">02:00</p>
+        <div>
+            <ul class="bolinhas">
+                <li><video class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video  class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video  class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video  class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video  class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+                <li><video  class="bolinhasVideo" autoplay loop src="./midias/BolaNeutra.webm"></video></li>
+            </ul>
+        </div>
+    </section>
+    <script src="./senhasLista.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>

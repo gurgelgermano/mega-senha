@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    background: rgb(22, 22, 22);
+    color: whitesmoke;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10em;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+section {
+    flex: 1 0 50%;
+}
+
+.painelBx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.tituloPainel{
+    font-size: 20px;
+    text-align: center;
+    align-self: center;
+}
+
+.controle {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    max-width: 20em;
+    
+}
+
+.controle button{
+    padding: 10px 10px;
+    margin: 3px;
+    width: 100px;
+    flex-basis: 40%;
+    font-weight: 600;
+    border-radius: 10px;
+    outline: none;
+}
+
+#start {
+    background: green;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.senhaBx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.senha {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.palavra {
+    font-size: 30px;
+    background: #191970;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.infoRodadaBx {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pontos, .rodada, .premio {
+    font-size: 20px;
+    background: #191970;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+
+.infoTitulo {
+    font-size: 30px;
+    background:#08084d;
+    border-radius: 5px 5px 0 0;
+    padding: 0px 20px;
+    margin-left: 5px;
+}
+
+.timerBx {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.bolinhas {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    max-width: 18em;
+    align-items: center;
+    justify-content: center;
+}
+
+.bolinhas video {
+    width: 50px;
+}
